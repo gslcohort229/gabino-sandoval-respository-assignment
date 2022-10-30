@@ -3,7 +3,9 @@ html,body{
     font-size: large;
     font-family:monospace;
     background: linear-gradient(150deg, #97c3e0, #d63c3c);
-
+    -webkit-box-shadow: 10px 10px 5px 0px rgba(0,0,0,0.75);
+    -moz-box-shadow: 10px 10px 5px 0px rgba(0,0,0,0.75);
+    box-shadow: 10px 10px 5px 0px rgba(0,0,0,0.75);
 }
 
 .container {
@@ -23,7 +25,7 @@ html,body{
     display: flex;
     flex-direction: column;
     text-align: center;
-    box-shadow: 0px 0px 5px 0px rgba(0,0,0,0.75);
+    box-shadow: 0px 0px 5px 0px rgba(125, 157, 210, 0.75);
     background: white;
     padding:20px;
 
@@ -50,7 +52,7 @@ input, button {
 }
 
 input {
-    border-bottom: 1px solid rgba(121, 121, 121, 0.55);
+    border-bottom: 1px solid rgba(244, 50, 50, 0.55);
 }
 
 input:focus {
@@ -58,10 +60,10 @@ input:focus {
 }
 
 button {
-    background: linear-gradient(150deg,#8e44ad, #2980b9);
+    background: linear-gradient(150deg,#200167, #0b1217);
     border-width: 0px;
-    border-radius: 30px;
-    color: white;
+   git border-radius: 20px;
+    color: rgb(131, 121, 121);
     font-size: large;
     box-shadow: 0px 0px 5px 0px rgba(0,0,0,0.75);
     -moz-box-shadow: 0px 0px 5px 0px rgba(0,0,0,0.75);
